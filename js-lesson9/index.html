@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div id="text">russia</div>
+<button id="textRemover">Delete russia</button>
+
+
+<label for="age">Введіть вік:</label>
+<input placeholder="Ваш вік..." type="number" id="age" name="age" min="0">
+<button type="button" onclick="checkAge()">Підтвердити</button>
+
+<div class="tableConstructor">
+    <h1>Генератор Таблиці</h1>
+    <div class="rows">
+        <label for="rowsCount">Введіть кількість рядків:</label>
+        <input placeholder="Рядки" type="number" id="rowsCount" name="rowsCount" min="0">
+    </div>
+    <div class="columns">
+        <label for="columnsCount">Введіть кількість колонок:</label>
+        <input placeholder="Колонки" type="number" id="columnsCount" name="columnsCount" min="0">
+    </div>
+    <div class="tableContent">
+        <label for="tableContent">Введіть вміст таблиці</label>
+        <input placeholder="Вміст таблиці"  id="tableContent" name="tableContent" min="0">
+    </div>
+    <button type="button" onclick="generateTable()">Згенерувати Таблицю</button>
+    <table id="generatedTable"></table>
+</div>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
