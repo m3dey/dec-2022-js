@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<form id="f1">
+    <input id="name" type="text" placeholder="Ваше ім'я">
+
+    <input id="surname" type="text" placeholder="Ваше прізвище">
+
+    <input id="age" type="number" min="0" placeholder="Ваш вік">
+
+    <input type="button" id="getInfo" value="Place info" onclick="placeInfo()"></input>
+</form>
+<hr>
+<div id="output"></div>
+
+<div class="loadCount"></div>
+<hr>
+<a href="sessions/sessions.html"><div class="/session/sessions">Переглянути коли були останні відвідини сайту=></div></a>
+<hr>
+
+<div class="tenItemsBlock">
+    <div class="header">
+        <input type="button" id="prev" value="<= prev">
+        <input type="button" id="next" value="next =>">
+    </div>
+    <div id="itemList" class="items">
+
+    </div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
